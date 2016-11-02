@@ -12,9 +12,12 @@
   "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
+    "gulp-concat": "^2.6.0",
     "mongoose": "^4.4.20",
     "morgan": "^1.7.0",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

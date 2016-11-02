@@ -40,7 +40,7 @@ function renderVideo(data) {
 }
 
 signIn()
-  .then(getVideos);
+  .then(getVideos); 
 
 
 

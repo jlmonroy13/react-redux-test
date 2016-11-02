@@ -15,23 +15,15 @@ var options = {
   },
   vendors : {
     files: [
-      'bower_components/angular/angular.js',
-      'bower_components/angular-ui-router/release/angular-ui-router.js',
-      'bower_components/angular-resource/angular-resource.js',
-      'bower_components/angular-animate/angular-animate.js',
-      'bower_components/ng-infinite-scroll-npm-is-better-than-bower/build/ng-infinite-scroll.js',
-      'bower_components/ngstorage/ngStorage.js',
-      'bower_components/cryptojslib/rollups/md5.js'
+      'node_modules/react/dist/react.js',
+      'node_modules/react-dom/dist/react-dom.js'
     ],
     destination : 'client/assets/javascripts/vendor',
     fileName: 'bundle.js'
   },
   scripts : {
     files: [ 
-      'client/app/app.module.js',
-      'client/app/app.routes.js',
-      'client/app/components/**/*.js',
-      'client/app/filters/*.js' 
+      'client/app/application.js'
     ],
     destination : 'client/assets/javascripts',
     fileName: 'main.js'
